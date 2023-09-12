@@ -45,7 +45,7 @@ export function App() {
               Lembre-se: você pode utilizar a variável transcription no seu prompt para adicionar o conteúdo da <code className="text-green-400">{'{'}transcrição{'}'}</code> do vídeo selecionado.
             </p>
           </div>
-          <aside className="w-80 space-y-6">
+          <aside className="w-full sm:w-80 space-y-6">
             <form className="space-y-6">
               <label 
                 htmlFor="video" 
